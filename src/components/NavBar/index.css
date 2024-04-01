@@ -1,0 +1,62 @@
+/* Write your code here. */
+* {
+  font-family: 'Roboto';
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 8px;
+}
+
+.title-with-score-container {
+  display: flex;
+  flex-basis: 80%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .title-with-score-container {
+    display: flex;
+    flex-basis: 90%;
+    justify-content: space-between;
+  }
+}
+.title-logo-container {
+  display: flex;
+  align-items: center;
+}
+.app-logo {
+  width: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .app-logo {
+    width: 30px;
+  }
+}
+
+.game-name {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .game-name {
+    font-size: 15px;
+  }
+  .score-text {
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 16px;
+  }
+}
+
+.scores-container {
+  display: flex;
+}
+.score-text {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 16px;
+}

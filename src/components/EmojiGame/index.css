@@ -1,0 +1,30 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji-game-body {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 50px;
+}
+.emojis-list-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 767px) {
+  .emojis-list-container {
+    width: 90%;
+    margin: auto;
+  }
+}

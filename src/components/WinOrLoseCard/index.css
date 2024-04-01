@@ -1,0 +1,139 @@
+/* Write your code here. */
+.win-or-lose-card {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff33;
+  width: 85%;
+  border: 3px solid #ffffff30;
+  border-radius: 24px;
+  margin: auto;
+  padding: 32px;
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 0;
+}
+
+.game-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.current-score-label {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.current-score-value {
+  text-align: center;
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  margin: 16px;
+  padding: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.image-section {
+  order: 1;
+}
+
+.win-or-lose-image {
+  width: 275px;
+  height: 350px;
+}
+
+@media screen and (max-width: 767px) {
+  .game-status {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .current-score-label {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .current-score-value {
+    text-align: center;
+    color: #6a59ff;
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0px;
+  }
+
+  .play-again-button {
+    color: #3d3d3d;
+    background-color: #ffce27;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin: 16px;
+    padding: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    cursor: pointer;
+    outline: none;
+    width: 180px;
+  }
+  .win-or-lose-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff33;
+    width: 85%;
+    border: 3px solid #ffffff30;
+    border-radius: 24px;
+    margin: auto;
+    padding: 32px;
+  }
+
+  .image-section {
+    order: 0;
+  }
+  .win-or-lose-image {
+    width: 200px;
+    height: 250px;
+  }
+
+  .details-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+}
